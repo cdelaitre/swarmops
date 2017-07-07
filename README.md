@@ -61,5 +61,6 @@ docker stack deploy --compose-file swarmops-web.yml swarmops
 - Go to http://<LAN_IP_NODE>:19998
 
 **5/ Credits**
+- Docker Swarm https://github.com/docker/swarm
 - Costa Tsaousis https://github.com/ktsaou
   - for his awesome Netdata : https://github.com/firehol/netdata
