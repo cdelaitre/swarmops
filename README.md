@@ -1,4 +1,5 @@
-# Swarmops
+## Swarmops
+# Docker Swarm Real-Time Monitoring
 
 **Requirements**
 - a Docker Swarm with managers & workers nodes
