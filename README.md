@@ -1,6 +1,8 @@
 # SwarmOps
 ## Docker Swarm Real-Time Monitoring
 
+![SwarmOps](https://raw.githubusercontent.com/cdelaitre/swarmops/master/img/swarmops.gif)
+
 **Requirements**
 - a Docker Swarm with managers & workers nodes
 
