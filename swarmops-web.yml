@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  web:
+    image: httpd 
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      placement:
+        constraints:
+          - node.role == manager
+          - node.hostname == solar
+    volumes:
+      - ${PWD}/src:/usr/local/apache2/htdocs
+      - ${PWD}/src/config.js:/usr/local/apache2/htdocs/config.js
+    ports:
+      - "19998:80"
+    networks:
+      - net
+  
+networks:
+  net:
