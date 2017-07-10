@@ -27,9 +27,9 @@ vim swarmops-web.yml
 ```
 
 - **Swarmops cluster**
-  - On your **manager** node, edit **config.js** and set **swarmopsCluster** with LAN IP of your nodes :
+  - On your **manager** node, edit **src/config.js** and set **swarmopsCluster** with LAN IP of your nodes :
 ```shell
-vim config.js
+vim src/config.js
 
 ...
 // - swarmopsCluster : array of lan ip nodes

@@ -13,7 +13,6 @@ services:
           - node.hostname == solar
     volumes:
       - ${PWD}/src:/usr/local/apache2/htdocs
-      - ${PWD}/src/config.js:/usr/local/apache2/htdocs/config.js
     ports:
       - "19998:80"
     networks:
